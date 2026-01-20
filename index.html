@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西安市浐灞第三小学</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="校徽" style="width:15%; margin-top:5px;">
+            <h1>浐灞三小</h1>
+        </div>
+        <div class="school-info">
+            <h2>西安市浐灞第三小学</h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active"><span class="icon home"></span> 首页</a></li>
+            <li><a href="about.html"><span class="icon about"></span> 学校简介</a></li>
+            <li><a href="news.html"><span class="icon news"></span> 校园新闻</a></li>
+            <li><a href="contact.html"><span class="icon contact"></span> 联系我们</a></li>
+        </ul>
+    </nav>
+
+    <section class="banner">
+        <img src="images/banner.png" alt="校园">
+        <div class="banner-text">
+            <h2>欢迎来到浐灞三小</h2>
+            <p>这里是孩子们快乐成长的乐园，梦想起航的地方！</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="intro">
+            <h3>学校简介</h3>
+            <p>西安市浐灞第三小学坐落于美丽的浐灞生态区，是一所充满活力与希望的现代化小学。学校秉承“以人为本，全面发展”的教育理念，致力于为每一位学生提供优质的教育环境。</p>
+            <p>我们注重培养学生的创新精神和实践能力，开设了丰富多彩的社团活动，让孩子们在快乐中学习，在体验中成长。</p>
+        </section>
+
+        <section class="news-preview card">
+            <h3>📰 校园动态</h3>
+            <ul id="news-list">
+                <!-- 此处内容将由 JavaScript 自动生成 -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>西安市浐灞第三小学 版权所有 &copy; <span id="year"></span></p>
+        <p>地址：陕西省西安市浐灞生态区矿山路1616号</p>
+        <p class="creator-credit"><small>Admin 兼 管理者：霍田煜熙</small></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!-- 新增：引入新闻渲染脚本 -->
+    <script src="js/news-loader.js"></script>
+</body>
+
+</html>
